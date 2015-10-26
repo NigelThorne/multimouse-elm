@@ -20,7 +20,7 @@
       var elmDiv = document.getElementById("elm");
 
       elmClient = Elm.embed(Elm.Elm.Client, elmDiv, {
-        receiveState: "{id: '', x: 0, y: 0}"
+        receiveState: "--waiting--"
       });
 
       elmClient.ports.sendInput.subscribe(function(input) {
