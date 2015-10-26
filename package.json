@@ -1,0 +1,15 @@
+{
+  "name": "mouseshare2-elm",
+  "version": "1.0.0",
+  "description": "multi user mouse share",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
